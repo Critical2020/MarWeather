@@ -299,6 +299,7 @@ body {
 #clone-info-humidity,
 #clone-info-wind {
     position: absolute;
+    overflow: hidden;
 }
 
 #clone-info-weather .weather {
