@@ -20,7 +20,7 @@ body {
     left: 0;
     width: 100%;
     padding: 1.3rem 10%;
-    background: rgba(101, 117, 205, .6);
+    background: rgba(101, 117, 205, .4);
     backdrop-filter: blur(30px);
     display: flex;
     justify-content: space-between;
