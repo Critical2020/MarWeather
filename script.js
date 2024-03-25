@@ -47,10 +47,10 @@ search.addEventListener('click', () => {
                 }, 2500);
 
                 switch (json.weather[0].main) {
-                    
                     case 'Clear':
                         image.src = "source/clear.png";
                         break;
+                    
                     case 'Rain':
                         image.src = "source/rain.png";
                         break;
