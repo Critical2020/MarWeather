@@ -5,8 +5,7 @@ const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
 const cityHide = document.querySelector('.city-hide')
 
-search.addEventListener('click', () => {
-    
+function BuscarTiempo() {
     const APIkey = '1806141e40656dba4c4f2362c5ec3f2e';
     const city = document.querySelector('.search-box input').value;
 
@@ -121,4 +120,17 @@ search.addEventListener('click', () => {
                 }
             }
         });
+}
+
+
+document.querySelector('.search-box button').addEventListener('click', BuscarTiempo);
+
+
+document.querySelector('.search-box input').addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {
+        BuscarTiempo();
+    }
 });
+
+
+
